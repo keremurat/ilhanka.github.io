@@ -175,7 +175,7 @@ const Timeline: React.FC = () => {
               Akademik<br />Yolculuğum
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
-              30 yılı aşkın eğitim ve deneyim sürecinde edindiğim bilgi birikimi ve uluslararası
+              20 yılı aşkın eğitim ve deneyim sürecinde edindiğim bilgi birikimi ve uluslararası
               tecrübelerim ile hastalarıma en iyi hizmeti sunmaktayım.
             </p>
           </div>

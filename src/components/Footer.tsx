@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
               </div>
               
               <p className="text-white/80 leading-relaxed max-w-md text-sm">
-                15 yılı aşkın deneyimle, hastalarımın sağlığını ve refahını ön planda tutarak, 
+                20 yılı aşkın deneyimle, hastalarımın sağlığını ve refahını ön planda tutarak,
                 en güncel tıbbi yöntemlerle hizmet vermekteyim.
               </p>
 
@@ -133,22 +133,22 @@ const Footer: React.FC = () => {
                   <MapPin className="w-5 h-5 text-white mt-1 flex-shrink-0" />
                   <div className="text-white/80 text-sm leading-relaxed">
                     Medical Park Samsun Hastanesi<br />
-                    Kılıçdede Mah. Liman Cad. No:1<br />
-                    İlkadım/Samsun
+                    Mimar Sinan Mah. Alparslan Bulvarı No:17<br />
+                    Atakum/SAMSUN
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
                   <Phone className="w-5 h-5 text-white flex-shrink-0" />
                   <div className="text-white font-bold">
-                    +90 362 444 55 66
+                    444 44 84
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
                   <Mail className="w-5 h-5 text-white flex-shrink-0" />
                   <div className="text-white/80 text-sm">
-                    dr.ilhan@medicalpark.com.tr
+                    ikarabicak@yahoo.com
                   </div>
                 </div>
 

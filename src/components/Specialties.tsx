@@ -124,7 +124,7 @@ const Specialties: React.FC = () => {
         "Düşük komplikasyon oranı",
         "24/7 takip sistemi"
       ],
-      image: `${import.meta.env.BASE_URL}gallery/11fad331-e36b-46a4-8ae6-d7ae5044b7a0.jpeg`
+      image: `${import.meta.env.BASE_URL}gallery/ileri_lopotpskopik_kanser_cerrahisi.jpg`
     },
     {
       icon: <Shield className="w-8 h-8" />,
@@ -208,7 +208,7 @@ const Specialties: React.FC = () => {
         "Hızlı iyileşme ve erken mobilizasyon",
         "Onkolojik güvenlik ile kozmetik sonuç"
       ],
-      image: `${import.meta.env.BASE_URL}gallery/ileri_lopotpskopik_kanser_cerrahisi.jpg`
+      image: `${import.meta.env.BASE_URL}gallery/11fad331-e36b-46a4-8ae6-d7ae5044b7a0.jpeg`
     }
   ];
 

@@ -35,7 +35,7 @@ const About: React.FC = () => {
               </div>
               <div className="lg:col-span-4">
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  30 yılı aşkın eğitim ve deneyim sürecinde, uluslararası standartlarda 
+                  20 yılı aşkın eğitim ve deneyim sürecinde, uluslararası standartlarda
                   sağlık hizmeti sunmak için sürekli kendimi geliştirmekteyim.
                 </p>
               </div>
