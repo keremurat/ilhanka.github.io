@@ -212,31 +212,31 @@ const About: React.FC = () => {
           </div>
 
           {/* Stats Section - Full Width Gradient */}
-          <div 
+          <div
             ref={statsRef}
-            className={`bg-gradient-to-r from-navy-900 via-navy-800 to-navy-900 p-16 transition-all duration-1000 ease-out ${
+            className={`bg-gradient-to-r from-navy-900 via-navy-800 to-navy-900 p-8 md:p-16 transition-all duration-1000 ease-out ${
               statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-              <div className="text-center" ref={experienceRef as React.RefObject<HTMLDivElement>}>
-                <div className="text-7xl font-black text-white mb-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+              <div className="text-center py-6" ref={experienceRef as React.RefObject<HTMLDivElement>}>
+                <div className="text-5xl md:text-7xl font-black text-white mb-4">
                   {experienceCount}
                 </div>
                 <div className="text-white/90 font-bold mb-2 uppercase tracking-wider text-sm">Yıllık Deneyim</div>
                 <div className="text-white/70 text-sm">Genel Cerrahi Alanında</div>
               </div>
 
-              <div className="text-center" ref={patientsRef as React.RefObject<HTMLDivElement>}>
-                <div className="text-7xl font-black text-white mb-4">
+              <div className="text-center py-6 border-t border-b md:border-t-0 md:border-b-0 md:border-l md:border-r border-white/20" ref={patientsRef as React.RefObject<HTMLDivElement>}>
+                <div className="text-5xl md:text-7xl font-black text-white mb-4">
                   {patientsCount}
                 </div>
                 <div className="text-white/90 font-bold mb-2 uppercase tracking-wider text-sm">Başarılı Tedavi</div>
                 <div className="text-white/70 text-sm">Hasta Sayısı</div>
               </div>
 
-              <div className="text-center" ref={satisfactionRef as React.RefObject<HTMLDivElement>}>
-                <div className="text-7xl font-black text-white mb-4">
+              <div className="text-center py-6" ref={satisfactionRef as React.RefObject<HTMLDivElement>}>
+                <div className="text-5xl md:text-7xl font-black text-white mb-4">
                   {satisfactionCount}
                 </div>
                 <div className="text-white/90 font-bold mb-2 uppercase tracking-wider text-sm">Başarı Oranı</div>

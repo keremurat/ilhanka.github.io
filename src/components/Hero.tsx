@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
 
               {/* Description */}
               <p className="text-xl lg:text-2xl text-gray-200 leading-relaxed font-light max-w-xl">
-                15 yılı aşkın deneyimle, modern tıbbi uygulamalar ve bilimsel yaklaşım doğrultusunda 
+                20 yılı aşkın deneyimle, modern tıbbi uygulamalar ve bilimsel yaklaşım doğrultusunda
                 hastalarıma en iyi sağlık hizmetini sunmaktayım.
               </p>
 
