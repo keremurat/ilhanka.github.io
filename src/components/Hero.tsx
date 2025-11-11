@@ -137,7 +137,7 @@ const Hero: React.FC = () => {
               {/* Main Image Frame */}
               <div className="relative border-4 border-white/30 shadow-2xl overflow-hidden">
                 <img
-                  src={`${import.meta.env.BASE_URL}ilhankarabicak_photos/main_photo.jpg`}
+                  src={`${import.meta.env.BASE_URL}gallery/main_photo.jpg`}
                   alt="Doç. Dr. İlhan Karabıçak"
                   className="w-full h-auto object-cover"
                 />

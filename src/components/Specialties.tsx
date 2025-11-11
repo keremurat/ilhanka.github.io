@@ -160,7 +160,7 @@ const Specialties: React.FC = () => {
         "Kısa hastane kalış süresi",
         "Deneyimli ekip ile güvenli operasyonlar"
       ],
-      image: `${import.meta.env.BASE_URL}ilhankarabicak_photos/mide_cerrahasi.jpg`
+      image: `${import.meta.env.BASE_URL}gallery/mide_cerrahasi.jpg`
     },
     {
       icon: <Shield className="w-8 h-8" />,
@@ -172,7 +172,7 @@ const Specialties: React.FC = () => {
         "Onkolojik güvenli rezeksiyonlar",
         "Multidisipliner tedavi yaklaşımı"
       ],
-      image: `${import.meta.env.BASE_URL}ilhankarabicak_photos/kalin_bagirsak_ve_rektum_cerrahisi.jpg`
+      image: `${import.meta.env.BASE_URL}gallery/kalin_bagirsak_ve_rektum_cerrahisi.jpg`
     },
     {
       icon: <Zap className="w-8 h-8" />,
@@ -184,7 +184,7 @@ const Specialties: React.FC = () => {
         "Sentinel lenf nodu biyopsisi",
         "Estetik odaklı yaklaşım"
       ],
-      image: `${import.meta.env.BASE_URL}ilhankarabicak_photos/meme_cerrhaisi.jpg`
+      image: `${import.meta.env.BASE_URL}gallery/meme_cerrhaisi.jpg`
     },
     {
       icon: <Activity className="w-8 h-8" />,
@@ -196,7 +196,7 @@ const Specialties: React.FC = () => {
         "Multimodal tedavi yaklaşımı",
         "Deneyimli ekip ile güvenli uygulama"
       ],
-      image: `${import.meta.env.BASE_URL}ilhankarabicak_photos/sicak_kemoterapi.jpg`
+      image: `${import.meta.env.BASE_URL}gallery/sicak_kemoterapi.jpg`
     },
     {
       icon: <Shield className="w-8 h-8" />,
@@ -208,7 +208,7 @@ const Specialties: React.FC = () => {
         "Hızlı iyileşme ve erken mobilizasyon",
         "Onkolojik güvenlik ile kozmetik sonuç"
       ],
-      image: `${import.meta.env.BASE_URL}ilhankarabicak_photos/ileri_lopotpskopik_kanser_cerrahisi.jpg`
+      image: `${import.meta.env.BASE_URL}gallery/ileri_lopotpskopik_kanser_cerrahisi.jpg`
     }
   ];
 
