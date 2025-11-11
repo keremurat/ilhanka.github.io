@@ -130,22 +130,15 @@ const Publications: React.FC = () => {
           {/* Show More/Less Button */}
           {publications.length > 6 && (
             <div className="text-center">
-              <button
-                onClick={() => setShowAll(!showAll)}
+              <a
+                href="https://pubmed.ncbi.nlm.nih.gov/?term=Karabicak+i"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-slate-900 text-white px-10 py-4 font-black text-base hover:bg-navy-600 transition-all duration-300"
               >
-                {showAll ? (
-                  <>
-                    <ChevronUp className="w-5 h-5" />
-                    Daha Az Göster
-                  </>
-                ) : (
-                  <>
-                    <ChevronDown className="w-5 h-5" />
-                    Tüm Yayınları Göster ({publications.length})
-                  </>
-                )}
-              </button>
+                <ExternalLink className="w-5 h-5" />
+                Tüm Yayınları Göster
+              </a>
             </div>
           )}
 

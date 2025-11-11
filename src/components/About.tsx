@@ -186,9 +186,10 @@ const About: React.FC = () => {
                   <Globe className="w-8 h-8 text-white" />
                 </div>
                 <div className="text-2xl font-black text-slate-900 mb-2">Uluslararası</div>
-                <div className="text-sm text-gray-600">Memorial Sloan Kettering</div>
                 <div className="text-sm text-gray-600">New York Üniversitesi</div>
-                <div className="text-sm text-gray-600">Kansai Tıp Fakültesi, Osaka, JAPONYA</div>
+                <div className="text-sm text-gray-600">State University of New York</div>
+                <div className="text-sm text-gray-600">Memorial Sloan Kettering Kanser Merkezi</div>
+                <div className="text-sm text-gray-600">Kansai Tıp Fakültesi, Osaka, Japonya</div>
               </div>
               
               <div className="bg-white p-8 border-2 border-slate-200 hover:border-navy-600 transition-all duration-300 group">
@@ -206,7 +207,6 @@ const About: React.FC = () => {
                 </div>
                 <div className="text-2xl font-black text-slate-900 mb-2">Başarı</div>
                 <div className="text-sm text-gray-600">Avrupa Genel Cerrah Board Sertifikası (FEBS)</div>
-                <div className="text-sm text-gray-600">Doçent Doktor</div>
               </div>
             </div>
           </div>
