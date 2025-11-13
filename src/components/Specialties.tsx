@@ -119,10 +119,10 @@ const Specialties: React.FC = () => {
       title: "Pankreas Cerrahisi",
       description: "Zorlu ameliyatlarda en güncel yöntemlerle çözüm sunmaktayım. Minimal invaziv tekniklerle hasta konforunu önceliklendirmekteyim.",
       features: [
-        "Minimal invaziv laparoskopik yöntemler",
-        "Hızlı iyileşme süreci",
-        "Düşük komplikasyon oranı",
-        "24/7 takip sistemi"
+        "Pankreas kanseri",
+        "Pankreas iyi huylu tümörleri",
+        "Pankreas kistleri",
+        "Pankreatit"
       ],
       image: `${import.meta.env.BASE_URL}gallery/ileri_lopotpskopik_kanser_cerrahisi.jpg`
     },
@@ -131,10 +131,10 @@ const Specialties: React.FC = () => {
       title: "Karaciğer Cerrahisi",
       description: "Hassasiyet gerektiren karaciğer operasyonlarında yüksek başarı oranı. Kompleks vakalarda güvenli çözümler sunmaktayım.",
       features: [
-        "İleri görüntüleme teknikleri",
-        "Multidisipliner yaklaşım",
-        "Yüksek başarı oranı",
-        "Kişiselleştirilmiş tedavi planı"
+        "Karaciğer kanseri",
+        "İyi huylu karaciğer tümörleri",
+        "Hemanjiom",
+        "Köpek kisti (kist hidatik)"
       ],
       image: `${import.meta.env.BASE_URL}gallery/463b1c90-43a4-4eab-a41e-4a5c98cedeb6.jpeg`
     },
@@ -143,10 +143,11 @@ const Specialties: React.FC = () => {
       title: "Safra Yolları",
       description: "Minimal invaziv yöntemlerle daha konforlu bir iyileşme süreci. Hastalarımın günlük yaşamlarına en kısa sürede dönmelerini hedeflemekteyim.",
       features: [
-        "Günübirlik cerrahi imkanı",
-        "Minimal skar izi",
-        "Hızlı mobilizasyon",
-        "Düşük ağrı düzeyi"
+        "Safra kesesi taşı",
+        "Safra yolları cerrahisi",
+        "Safra yolları kanseri",
+        "Safra kesesi kanseri",
+        "Kolesistit"
       ],
       image: `${import.meta.env.BASE_URL}gallery/1.jpeg`
     },
@@ -155,10 +156,10 @@ const Specialties: React.FC = () => {
       title: "Mide Cerrahisi",
       description: "Mide hastalıklarının cerrahi tedavisinde modern teknikler ve hasta odaklı yaklaşım ile en iyi sonuçları hedefliyorum.",
       features: [
-        "Laparoskopik mide ameliyatları",
-        "Minimal invaziv teknikler",
-        "Kısa hastane kalış süresi",
-        "Deneyimli ekip ile güvenli operasyonlar"
+        "Mide kanseri",
+        "Mide fıtığı",
+        "Hiatal herni",
+        "Reflü cerrahisi"
       ],
       image: `${import.meta.env.BASE_URL}gallery/mide_cerrahasi.jpg`
     },
@@ -167,10 +168,12 @@ const Specialties: React.FC = () => {
       title: "Kalın Bağırsak ve Rektum Cerrahisi",
       description: "Kolorektal cerrahide en ileri tekniklerle tedavi sunuyor, hastalarımın yaşam kalitesini önceliklendiriyorum.",
       features: [
-        "Laparoskopik kolon cerrahisi",
-        "Minimal invaziv rektum operasyonları",
-        "Onkolojik güvenli rezeksiyonlar",
-        "Multidisipliner tedavi yaklaşımı"
+        "Kalın bağırsak kanseri",
+        "Rektum kanseri",
+        "Kalın bağırsağın iyi huylu tümörleri",
+        "Divertikülit",
+        "Anal fissür (makat çatlağı)",
+        "Hemoroid (Basur)"
       ],
       image: `${import.meta.env.BASE_URL}gallery/kalin_bagirsak_ve_rektum_cerrahisi.jpg`
     },
@@ -179,10 +182,8 @@ const Specialties: React.FC = () => {
       title: "Meme Cerrahisi",
       description: "Meme sağlığı ve estetik sonuçların birlikte değerlendirildiği hassas ve kişiselleştirilmiş cerrahi yaklaşım.",
       features: [
-        "Meme koruyucu cerrahi",
-        "Onkoplastik teknikler",
-        "Sentinel lenf nodu biyopsisi",
-        "Estetik odaklı yaklaşım"
+        "Meme kanseri",
+        "Meme'nin iyi huylu tümörleri"
       ],
       image: `${import.meta.env.BASE_URL}gallery/meme_cerrhaisi.jpg`
     },
@@ -191,10 +192,9 @@ const Specialties: React.FC = () => {
       title: "Sıcak Kemoterapi",
       description: "HIPEC (Hipertermik İntraperitoneal Kemoterapi) ile peritoneal karsinomatozis tedavisinde ileri tedavi seçeneği sunuyorum.",
       features: [
-        "İntraperitoneal kemoterapi uygulaması",
-        "Peritoneal yüzey malignitelerinde etkili tedavi",
-        "Multimodal tedavi yaklaşımı",
-        "Deneyimli ekip ile güvenli uygulama"
+        "Periton kanseri",
+        "Yumurtalık kanseri",
+        "Apandiks kanseri"
       ],
       image: `${import.meta.env.BASE_URL}gallery/sicak_kemoterapi.jpg`
     },
@@ -203,10 +203,12 @@ const Specialties: React.FC = () => {
       title: "İleri Laparoskopik Kanser Cerrahisi",
       description: "Karmaşık kanser vakalarında minimal invaziv tekniklerle tedavi, hastalarımın daha hızlı iyileşmesini sağlıyorum.",
       features: [
-        "Gelişmiş laparoskopik onkolojik cerrahi",
-        "Minimal invaziv radikal operasyonlar",
-        "Hızlı iyileşme ve erken mobilizasyon",
-        "Onkolojik güvenlik ile kozmetik sonuç"
+        "Mide kanseri",
+        "Pankreas kanseri",
+        "Karaciğer kanseri",
+        "Kalın bağırsak kanseri",
+        "Rektum kanseri",
+        "İnce bağırsak kanseri"
       ],
       image: `${import.meta.env.BASE_URL}gallery/11fad331-e36b-46a4-8ae6-d7ae5044b7a0.jpeg`
     }

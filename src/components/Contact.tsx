@@ -274,7 +274,7 @@ const Contact: React.FC = () => {
                         value={formData.message}
                         onChange={handleInputChange}
                         rows={5}
-                        className="w-full px-5 py-4 border-2 border-slate-200 focus:border-blue-600 focus:ring-4 focus:ring-blue-100 transition-all duration-300 outline-none resize-none bg-white"
+                        className="w-full px-5 py-4 border-2 border-slate-200 focus:border-navy-600 focus:ring-4 focus:ring-navy-100 transition-all duration-300 outline-none resize-none bg-white"
                         placeholder="Durumunuz hakkında kısaca bilgi veriniz..."
                         required
                       ></textarea>

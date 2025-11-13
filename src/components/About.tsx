@@ -85,9 +85,9 @@ const About: React.FC = () => {
               <div className="relative group col-span-2">
                 <div className="aspect-[2/1] overflow-hidden bg-slate-200">
                   <img
-                    src={`${import.meta.env.BASE_URL}gallery/1.jpeg`}
+                    src={`${import.meta.env.BASE_URL}gallery/photo.jpg`}
                     alt="Medical"
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                    className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-700"
                   />
                 </div>
                 <div className="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/20 transition-colors duration-300"></div>
