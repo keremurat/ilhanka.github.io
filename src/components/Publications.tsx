@@ -30,11 +30,11 @@ const Publications: React.FC = () => {
       link: 'https://link.springer.com/article/10.1007/s10029-022-02595-w'
     },
     {
-      title: 'Three-year outcome after anterior component separation repair of giant ventral hernias: A retrospective analysis of the original technique without mesh',
-      authors: 'Kesicioglu T, Yildirim K, Yuruker S, Karabicak I, Koc Z, Erzurumlu K, Malazgirt Z',
-      journal: 'Asian J Surg, 2021 Sep 7:S1015-9584(21)00519-4',
-      year: '2021',
-      link: 'https://www.sciencedirect.com/science/article/pii/S1015958421005194'
+      title: 'Objective Assessment of Surgical Restaging after Concurrent Chemoradiation for Locally Advanced Pancreatic Cancer',
+      authors: 'Ilhan Karabicak',
+      journal: 'J Korean Med Sci, 2016 Sep;31(9):1503-4',
+      year: '2016',
+      link: 'https://pubmed.ncbi.nlm.nih.gov/27510398/'
     },
     {
       title: 'Comparison of surgical outcomes of three different stump closure techniques during distal pancreatectomy',
@@ -63,13 +63,6 @@ const Publications: React.FC = () => {
       journal: 'Surg Case Rep, 2016 Dec;2(1):113',
       year: '2016',
       link: 'https://link.springer.com/article/10.1186/s40792-016-0242-6'
-    },
-    {
-      title: 'Letter to the Editor: Objective Assessment of Surgical Restaging after Concurrent Chemoradiation for Locally Advanced Pancreatic Cancer',
-      authors: 'Karabicak I',
-      journal: 'J Korean Med Sci, 2016 Sep;31(9):1503-4',
-      year: '2016',
-      link: 'https://synapse.koreamed.org/articles/1023090'
     },
     {
       title: 'Single port laparoscopic liver surgery: A minireview',
